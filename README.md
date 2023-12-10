@@ -24,10 +24,17 @@ import os
 import numpy as np 
 import baostock as bs 
 import pysnooper
+
 Data Sources:
 Origins: www.baostock.com
 Format: CSV
+
 How to access: 
 use the function from baostock pack to get the PE, PB and time-series data. The code uses caching to store data as DataFrame form and then saves data as csv files to local.
+
 Summary of data:
-There are more than 20000 records available each year, a new record is generated every 5 minutes. I will mainly use five data in the record: datetime, open, high, low, close, which respectively represent the time node, opening price, highest price, lowest price and closing price of the stock price. Based on the above five data, simulate the change of the stock price in the input time period.
+There are more than 20000 records available each year, a new record is generated every 5 minutes. I will mainly use five data in the record: datetime, open, high, low, close, which respectively represent the time node, opening price, highest price, lowest price and closing price of the stock price. Based on the above five data, simulate the change of the stock price in the selected time period.
+
+How to interact with my program: Users choose and enter any existing Chinese A-stock stock code and any time span during the listing period of the stock.
+Users can answer the questions based on the performance of their ideal stock, and let the program judge whether the stock is worth investing.
+
