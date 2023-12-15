@@ -2,8 +2,6 @@
 '''
 Spyder Editor
 
-This is a temporary script file.
-
 PEP 8: Python
 '''
 import sys
